@@ -1,7 +1,8 @@
 h3 {
     font-family: 'Dancing Script', cursive;
     color: #f5b045;
-    font-size: 57px;
+    font-size: 30px;
+    font-weight: bold;
 }
 
 .nav ul {
@@ -20,7 +21,7 @@ li a {
     display: block;
     color: #e25414;
     text-align: center;
-    padding: 15px 17px;
+    padding: 10px 12px;
     text-decoration: none;
 }
 
@@ -33,8 +34,8 @@ li a {
 h1 {
     font-size: 65px;
     text-align: center;
-    color: burlywood;
-    text-shadow: 4px 4px 7px green;
+    color: white;
+    text-shadow: 4px 4px 7px rgb(171, 224, 171);
     font-family: 'Dancing Script', cursive;
     ;
 }
@@ -42,7 +43,13 @@ h1 {
 h2 {
     font-size: 50px;
     font-family: 'Rock salt', cursive;
-    color: burlywood;
-    text-shadow: 4px 4px 7px green;
+    color: white;
+    text-shadow: 4px 4px 7px rgb(171, 224, 171);
     text-align: center;
+}
+
+.header {
+    background-image: url(../assets/bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
