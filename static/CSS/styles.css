@@ -1,0 +1,12 @@
+h3 {
+    font-family: 'Dancing Script', cursive;
+    color: #f5b045;
+    font-size: 57px;
+}
+
+.nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
