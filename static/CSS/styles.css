@@ -10,3 +10,39 @@ h3 {
     padding: 0;
     overflow: hidden;
 }
+
+ul li {
+    display: inline;
+    float: right;
+}
+
+li a {
+    display: block;
+    color: #e25414;
+    text-align: center;
+    padding: 15px 17px;
+    text-decoration: none;
+}
+
+.nav {
+    border: 4px 4px rgb(233, 228, 228);
+    box-shadow: 5px 5px 14px rgba(50, 112, 226, 0.61);
+    position: relative;
+}
+
+h1 {
+    font-size: 65px;
+    text-align: center;
+    color: burlywood;
+    text-shadow: 4px 4px 7px green;
+    font-family: 'Dancing Script', cursive;
+    ;
+}
+
+h2 {
+    font-size: 50px;
+    font-family: 'Rock salt', cursive;
+    color: burlywood;
+    text-shadow: 4px 4px 7px green;
+    text-align: center;
+}
