@@ -1,3 +1,12 @@
+body {
+    background-image: url(../assets/background1.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+}
+
 h3 {
     font-family: 'Dancing Script', cursive;
     color: #f5b045;
@@ -14,7 +23,7 @@ h3 {
 
 ul li {
     display: inline;
-    float: right;
+    float: left;
 }
 
 li a {
@@ -52,4 +61,12 @@ h2 {
     background-image: url(../assets/bg.jpg);
     background-size: cover;
     background-repeat: no-repeat;
+    height: 45vh;
+}
+
+#about {
+    background-color: rgb(4, 36, 33);
+    margin-top: 3%;
+    text-align: center;
+    color: white;
 }
