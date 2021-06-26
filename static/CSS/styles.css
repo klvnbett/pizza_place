@@ -89,11 +89,13 @@ span {
     background-color: rgb(4, 36, 33);
     margin-top: 3%;
     text-align: center;
-    color: #cb4154;
+    color: #043c5298;
     padding: 3rem;
 }
 
 .card {
     margin: 3%;
     height: 35vh;
+    font-style: italic;
+    font-family: 'Rock salt', cursive;
 }
