@@ -69,4 +69,17 @@ h2 {
     margin-top: 3%;
     text-align: center;
     color: white;
+    padding: 3rem;
+}
+
+
+/* .row.description {
+    margin-right: 3rem;
+    border-right: 3px dotted white;
+} */
+
+span {
+    font-family: 'Rock salt', cursive;
+    font-weight: bolder;
+    color: #cb4154;
 }
