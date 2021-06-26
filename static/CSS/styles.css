@@ -23,6 +23,7 @@ h3 {
 
 ul li {
     display: inline;
+    justify-content: flex-end;
     float: left;
 }
 
@@ -82,4 +83,17 @@ span {
     font-family: 'Rock salt', cursive;
     font-weight: bolder;
     color: #cb4154;
+}
+
+#menu {
+    background-color: rgb(4, 36, 33);
+    margin-top: 3%;
+    text-align: center;
+    color: #cb4154;
+    padding: 3rem;
+}
+
+.card {
+    margin: 3%;
+    height: 35vh;
 }
