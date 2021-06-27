@@ -1,46 +1,46 @@
 ## Project name
-    - Akan Names
+    - PIZZA PLACE WEBSITE
 
 ## Project description
-     This is a web application that is used to Generate Akan names according to the day they were born.
-     it  is a naming convention in Ghana that has beenused traditionlly.
+     This is a web application that is used to Order a pizza by the customers depending on their sizes.
+     this is where customers can specify the type of pizza ,size and the number that they need.Also if customers needs delivery of the pizza they willbe prompted to enter their location where they will be given the cost of delivery and the total cost that they will incur will be tabulated.
   
 
 ## Author(s) information
  Bett Kelvin
+ 
   
 ## Setup instructions
-    I used visual studio code
-    github
-    
+    git clone https://github.com/
+cd your/path/to/pizza_place
+
 
 
 ## BDD
-   The application requires the user to fill in the details of their birth in the form.
-   User also input the Gender on the form.
-   After Entering  birthday through a form the system calculates th day of the week the user was born.
-   Click the submit button to see what my Akan name would be
+   the Application  enables th euser to choose th e pizza  according to the :
+        -Size
+        -quantity they desire
+        -the crust they admire
+        -crust of their choice
+        -if they need it delivered at their door step
+        -the total amount payable on placing the order.
   
 ## Live link
-    Deployed project can be accessed here -  [Akan Names Generator](https://klvnbett.github.io/Akan_names/)
+    Deployed project can be accessed here -  [Akan Names Generator](https://klvnbett.github.io/pizza_place/)
 
 ## Technologies used
     - HTML
     - CSS
     - JS
     - Bootstrap
+    -Markdown syntax
   
 ## Contact information
      -Bett Kelvin.
      -Email:klvnbett@gmail.com
 ### Live Site
-[live](https://klvnbett.github.io/Akan_names/)
+[live](https://klvnbett.github.io/pizza_place/)
   
-## License and Copyright information
-    Copyright 2021 Bett Kelvin
-
-    Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
-
-    The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-
-    THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+## License 
+    this product is [MIT] (license)
+    copyright(c) 2021 Bett Kipkemoi
