@@ -116,3 +116,13 @@ span {
     font-family: 'Dancing Script', cursive;
     /*background-image: url(../assets/pizz.jpg);*/
 }
+
+#contact-us {
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(4, 36, 33);
+    margin-top: 1rem;
+    color: white;
+    font-family: 'Dancing Script', cursive;
+    padding: 4rem;
+}
