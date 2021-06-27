@@ -107,3 +107,12 @@ span {
     color: white;
     border: 3px solid white;
 }
+
+#order {
+    padding: 3rem;
+    background-color: rgb(4, 36, 33);
+    margin-top: 1rem;
+    color: white;
+    font-family: 'Dancing Script', cursive;
+    /*background-image: url(../assets/pizz.jpg);*/
+}
