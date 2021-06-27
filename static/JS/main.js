@@ -27,3 +27,31 @@ pizza.prototype.calculateCost = function(pizBasedAmt, sizeBasedAmt) {
     var totalCost = pizBasedAmt + sizeBasedAmt;
     $("#totalcostDisplay").innerHTML(totalCost);
 }
+var pizza;
+$(document).ready(function() {
+    $("#formid").submit(function(event) {
+        event.preventDefault();
+        $("#calculatebill").show();
+        var inputtedName = $("#name").val();
+        var inputtedQuantity = parseInt($("#quantity").val());
+        var typeArray = [];
+        var quantityArray = [];
+        $("input:checkbox[name=pizzatype]:checked").each(function() {
+            var inputtedQuantity = $(this).val();
+            quantityArray.push(inputtedQuantity);
+            $("#quantityDisplay").text(inputtedQuantity + ",");
+        });
+        $("input:checkbox[name=pizzatype]:checked").each(function() {
+            var inputtedQuantity = $(this).val();
+            quantityArray.push(inputtedQuantity);
+            $("#quantityDisplay").text(inputtedQuantity + ",");
+        });
+        var inputtedSize = $("input:radio[name=pizzasize]:checked").val();
+        $("nameDisplay").text(inputtedName);
+        $("#sizeDisplay").text(inputtedSize);
+        pizza = new pizza(quantityArray, inputtedSize);
+        var quantityBasedAmt = pizza.quantityBasedAmount();
+        var sizeBasedAmt = pizza.sizeBasedAmount();
+        pizza.calculateCost(quantityBasedAmt, sizeBasedAmt);
+    });
+});
