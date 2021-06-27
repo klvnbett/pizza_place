@@ -19,5 +19,11 @@ pizza.prototype.sizeBasedAmount = function() {
         return 1000;
     } else if (this.size = "large") {
         return 1300;
+    } else {
+        alert("Ensure to choose the size you prefer");
     }
+}
+pizza.prototype.calculateCost = function(pizBasedAmt, sizeBasedAmt) {
+    var totalCost = pizBasedAmt + sizeBasedAmt;
+    $("#totalcostDisplay").innerHTML(totalCost);
 }
