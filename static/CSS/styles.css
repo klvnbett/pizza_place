@@ -99,3 +99,11 @@ span {
     font-style: italic;
     font-family: 'Rock salt', cursive;
 }
+
+#calculatebill {
+    display: none;
+    margin-top: 3%;
+    background-color: rgb(39, 75, 3);
+    color: white;
+    border: 3px solid white;
+}
