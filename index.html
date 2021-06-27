@@ -108,16 +108,19 @@
                     </div>
                 </div>
             </div>
+        </div>
+        <div class="container-fluid">
             <div class="row" id="order">
                 <div class="col-md-8">
                     <form id="formid">
                         <div class="form-group">
+                            <h3>ORDER HERE</h3>
                             <label for="name">ENTER YOUR NAME:</label>
-                            <input type="text" class="form-control" id="name" placeholder="your name">
+                            <input type="text" class="form-control" id="name" placeholder="your name" required>
                         </div>
                         <div class="form-control" id="quantity">
                             <label for="quantity">Quantity</label>
-                            <input type="number" name="pizza" class="form-control" id="number" placeholder="0" max="" min="0">
+                            <input type="number" name="pizza" class="form-control" id="number" placeholder="0" max="" min="0" required>
                         </div>
                         <div class="form-check">
                             <label for="type-of-pizza"> <strong>CHOOSE TYPE OF PIZZA</strong> </label> <br> <br>
@@ -176,6 +179,7 @@
                                 <h3>THANKS FOR TRUSTING US</h3>
                                 <h4>Your Bill Is:</h4>
                                 <p>NAME: <span id="nameDisplay"></span></p>
+                                <p>PIZZA TYPE:<span id="typeDisplay"></span></p>
                                 <p>Quantity:<span id="quantityDisplay"></span></p>
                                 <p>pizza size:<span id="sizeDisplay"></span></p>
                                 <h4>TOTAL COST<span id="totalcostDisplay"></span></h4>
@@ -189,6 +193,8 @@
                 </div>
             </div>
         </div>
+        <script src="./static/JS/jquery-3.6.0.js"></script>
+        <script src="/static/JS/main.js"></script>
 </body>
 
 </html>
