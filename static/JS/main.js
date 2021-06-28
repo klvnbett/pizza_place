@@ -1,11 +1,14 @@
 //business logic
-function pizza(pizzatype, size) {
+function pizza(pizzatype, size, quantity, crust, toppings) {
     this.pizzatype = pizzatype;
     this.size = size;
+    this.quantity = quantity;
+    this.crust = crust;
+    this.toppings = toppings;
 }
 pizza.prototype.pizzatypeBasedAmount = function() {
-    if (this.quantity.length != 0) {
-        var pizzatypePrice = this.quantity.length * 7;
+    if (this.pizzatype.length != 0) {
+        var pizzatypePrice = this.pizzatype.length * 7;
         return pizzatypePrice;
     } else {
         alert(" kindly choose your pizza type");
@@ -13,16 +16,21 @@ pizza.prototype.pizzatypeBasedAmount = function() {
     }
 }
 pizza.prototype.sizeBasedAmount = function() {
-    if (this.size === "small") {
-        return 800;
-    } else if (this.size === "medium") {
-        return 1000;
-    } else if (this.size = "large") {
-        return 1300;
-    } else {
-        alert("Ensure to choose the size you prefer");
+        if (this.size === "small") {
+            return 800;
+        } else if (this.size === "medium") {
+            return 1000;
+        } else if (this.size = "large") {
+            return 1300;
+        } else {
+            alert("Ensure to choose the size you prefer");
+        }
     }
-}
+    // pizza.prototype.quantityBasedAmount = function() {
+    //     if(this.quantity!="0"){
+    //         document.getElementById("")
+    // }
+    //}
 pizza.prototype.calculateCost = function(pizBasedAmt, sizeBasedAmt) {
     var totalCost = pizBasedAmt + sizeBasedAmt;
     $("#totalcostDisplay").innerHTML(totalCost);
@@ -37,9 +45,9 @@ $(document).ready(function() {
         var typeArray = [];
         var quantityArray = [];
         $("input:checkbox[name=pizzatype]:checked").each(function() {
-            var inputtedQuantity = $(this).val();
-            quantityArray.push(inputtedQuantity);
-            $("#quantityDisplay").text(inputtedQuantity + ",");
+            var inputtedPizzaType = $(this).val();
+            typeArray.push(inputtedPizzaType);
+            $("#typeDisplay").text(inputtedPizzaType + ",");
         });
         $("input:checkbox[name=pizzatype]:checked").each(function() {
             var inputtedQuantity = $(this).val();
