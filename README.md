@@ -11,8 +11,10 @@
  
   
 ## Setup instructions
-    git clone https://github.com/
-cd your/path/to/pizza_place
+    Open terminal
+    Change directory to the location you want to copy the project to.
+    Clone the repo {git clone https://github.com/kklvnbett/pizza_place }
+    Now, you have the project in your local machine
 
 
 
