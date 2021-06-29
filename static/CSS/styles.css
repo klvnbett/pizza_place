@@ -126,3 +126,22 @@ span {
     font-family: 'Dancing Script', cursive;
     padding: 4rem;
 }
+
+
+/* input[type="text"] {
+    background: transparent;
+    border: 2px solid white;
+} */
+
+.form-control {
+    background: transparent;
+    border: 2px solid white;
+}
+
+input {
+    margin: 3px;
+}
+
+.form-check {
+    background: transparent;
+}

@@ -13,13 +13,13 @@
 ## Setup instructions
     Open terminal
     Change directory to the location you want to copy the project to.
-    Clone the repo {git clone https://github.com/kklvnbett/pizza_place }
+    Clone the repo {git clone https://github.com/klvnbett/pizza_place }
     Now, you have the project in your local machine
 
 
 
 ## BDD
-   the Application  enables th euser to choose th e pizza  according to the :
+   the Application  enables th user to choose th e pizza  according to the :
         -Size
         -quantity they desire
         -the crust they admire
@@ -28,7 +28,7 @@
         -the total amount payable on placing the order.
   
 ## Live link
-    Deployed project can be accessed here -  [Akan Names Generator](https://klvnbett.github.io/pizza_place/)
+    Deployed project can be accessed here -  [pizza_place](https://klvnbett.github.io/pizza_place/)
 
 ## Technologies used
     - HTML

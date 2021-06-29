@@ -66,4 +66,25 @@ $(document).ready(function() {
         var sizeBasedAmt = pizza.sizeBasedAmount();
         pizza.calculateCost((pizzatypeBasedAmt, sizeBasedAmt) * quantity);
     });
+    $("#pick").onClick(function() {
+        prompt("Enter your location for delivery");
+        alert("you will incur an extra cost of 150 /= for delivery")
+    });
 });
+//delivery or pick choice
+// $(document).ready(function() {
+//             $("#pick").onClick(function() {
+//                 prompt("Enter your location for delivery");
+//                 alert("you will incur an extra cost of 150 /= for delivery")
+//             })
+//         }
+// ${("#pick").on('click', function() {
+//     if (validatepick() != NaN) {
+//         validatepick();
+//     } else {
+//         return totalCost;
+//     }
+// });
+// $("#deliver").on('click', function() {
+//     if
+// });}
